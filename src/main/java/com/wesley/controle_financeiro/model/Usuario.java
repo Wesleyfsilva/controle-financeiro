@@ -13,7 +13,13 @@ public class Usuario {
     private Long id;
     private String nomeUsuario;
     private String senha;
+<<<<<<< HEAD
     private String email;
+=======
+    private String email; // Adicione este campo
+
+    // Getters e setters
+>>>>>>> 3b57c15a35c711ff8b7486f73e514d70a3db5acc
 
     public Long getId() {
         return id;

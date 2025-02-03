@@ -6,8 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+<<<<<<< HEAD
 import java.util.Optional;
 
+=======
+>>>>>>> 3b57c15a35c711ff8b7486f73e514d70a3db5acc
 @Service
 public class UsuarioService {
 
@@ -21,6 +24,7 @@ public class UsuarioService {
         usuario.setSenha(passwordEncoder.encode(usuario.getSenha()));
         usuarioRepository.save(usuario);
     }
+<<<<<<< HEAD
 
     public Optional<Usuario> findByEmail(String email) {
         return usuarioRepository.findByEmail(email);
@@ -41,4 +45,6 @@ public class UsuarioService {
         Optional<Usuario> usuario = usuarioRepository.findByEmail(email);
         usuario.ifPresent(value -> usuarioRepository.delete(value));
     }
+=======
+>>>>>>> 3b57c15a35c711ff8b7486f73e514d70a3db5acc
 }

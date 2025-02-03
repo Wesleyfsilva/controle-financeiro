@@ -1,19 +1,27 @@
 package com.wesley.controle_financeiro.service;
 
+<<<<<<< HEAD
 import com.wesley.controle_financeiro.model.Transacao;
 import com.wesley.controle_financeiro.model.Usuario;
 import com.wesley.controle_financeiro.repository.TransacaoRepository;
+=======
+import com.wesley.controle_financeiro.model.Usuario;
+>>>>>>> 3b57c15a35c711ff8b7486f73e514d70a3db5acc
 import com.wesley.controle_financeiro.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+<<<<<<< HEAD
 import java.util.List;
+=======
+>>>>>>> 3b57c15a35c711ff8b7486f73e514d70a3db5acc
 import java.util.Optional;
 
 @Service
 public class TransacaoService {
 
     @Autowired
+<<<<<<< HEAD
     private TransacaoRepository transacaoRepository;
 
     @Autowired
@@ -52,5 +60,14 @@ public class TransacaoService {
                 }
             });
         }
+=======
+    private UsuarioRepository usuarioRepository;
+
+    public void metodoExemplo(String email) {
+        Optional<Usuario> usuarioOptional = usuarioRepository.findByEmail(email);
+        Usuario usuario = usuarioOptional.orElseThrow(() -> new RuntimeException("Usuário não encontrado: " + email));
+
+        // Lógica adicional aqui
+>>>>>>> 3b57c15a35c711ff8b7486f73e514d70a3db5acc
     }
 }

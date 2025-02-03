@@ -1586,3 +1586,11 @@ Consider defining a bean of type 'org.springframework.security.crypto.bcrypt.BCr
 2025-02-03 07:09:30.767  INFO 1568 --- [http-nio-8080-exec-1] c.w.c.config.CustomAuthenticationFilter  : Autenticação bem-sucedida para o usuário: Jose
 2025-02-03 07:09:30.773 DEBUG 1568 --- [http-nio-8080-exec-1] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
 2025-02-03 07:09:30.774 DEBUG 1568 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2025-02-03 07:23:15.576  INFO 1568 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-02-03 07:23:15.597  INFO 1568 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-02-03 07:23:15.599  INFO 1568 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-02-03 07:23:15.599  INFO 1568 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-02-03 07:23:15.599  INFO 1568 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-02-03 07:23:15.601  INFO 1568 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-03 07:23:15.606  INFO 1568 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-03 07:23:15.611  INFO 1568 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

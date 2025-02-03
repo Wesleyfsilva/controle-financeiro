@@ -1,0 +1,11 @@
+[33mcommit b45c28ecfe6213eb2281740b36210ded8716eb60[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Wesley Ferreira <wesleyfsilva97@gmail.com>
+Date:   Mon Feb 3 07:14:16 2025 -0300
+
+    Implementação de autenticação e registro de usuário
+
+[33mcommit 34b69ece09100c6b999da9310376738dda1e519c[m
+Author: Wesley Ferreira <wesleyfsilva97@gmail.com>
+Date:   Thu Jan 30 04:16:49 2025 -0300
+
+    Primeiro commit
